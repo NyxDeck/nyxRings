@@ -58,9 +58,10 @@ The colours follow the theme's `primary` and `secondary`.
 ## Credits
 
 `wave-rings.frag` is a port of the `fancy_audio_visualizer` fragment shader
-from [Noctalia](https://github.com/noctalia-dev/noctalia) (MIT). The rendering
-formulas, defaults, and the nearest-filtered 32-band spectrum model are kept
-as in the original.
+from [Noctalia](https://github.com/noctalia-dev/noctalia), MIT licensed,
+Copyright (c) 2026 noctalia-dev. The rendering formulas, defaults, and the
+nearest-filtered 32-band spectrum model are kept as in the original. The full
+notice is repeated in [LICENSE](LICENSE).
 
 ## License
 

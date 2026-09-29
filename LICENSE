@@ -23,4 +23,10 @@ SOFTWARE.
 ---
 
 wave-rings.frag is a port of the fancy_audio_visualizer fragment shader from
-Noctalia (https://github.com/noctalia-dev/noctalia), MIT licensed.
+Noctalia (https://github.com/noctalia-dev/noctalia), which is MIT licensed:
+
+    MIT License
+    Copyright (c) 2026 noctalia-dev
+
+That notice covers the ported shader. Everything else here is under the MIT
+license above, Copyright (c) 2026 matsuzaka-yuki.
