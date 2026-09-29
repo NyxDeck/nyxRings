@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/AvengeMedia/DankMaterialShell/master/quickshell/PLUGINS/plugin-schema.json",
+    "id": "nyxRings",
+    "name": "NyxRings",
+    "description": "Noctalia-style wave-rings audio visualizer: concentric rings and a polar spectrum around a transparent centre. cava-driven.",
+    "version": "1.0.0",
+    "author": "NyxDeck",
+    "type": "desktop",
+    "capabilities": ["desktop-widget"],
+    "component": "./NyxRings.qml",
+    "icon": "graphic_eq",
+    "requires_dms": ">=1.6.1",
+    "dependencies": ["cava"],
+    "permissions": ["settings_read", "settings_write", "process"]
+}
