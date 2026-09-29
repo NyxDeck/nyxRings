@@ -1,9 +1,8 @@
 # NyxRings
 
 A [DankMaterialShell](https://github.com/AvengeMedia/DankMaterialShell)
-desktop widget: a fully transparent audio visualizer that ports Noctalia's
-`fancy_audio_visualizer` **wave_rings** effect — concentric rings and a polar
-spectrum around an empty centre.
+desktop widget: a fully transparent audio visualizer rendering the **wave_rings**
+effect — concentric rings and a polar spectrum around an empty centre.
 
 The widget draws nothing where there is no ring or wave, so it floats on the
 wallpaper without covering it.
@@ -30,8 +29,7 @@ DMS never places plugin desktop widgets automatically. Add one instance under
 ## Settings
 
 The widget has no settings page; its appearance is set by the top-level
-properties in `NyxRings.qml`. The defaults are copied from Noctalia's
-`desktop_fancy_audio_visualizer_widget.h` (WaveRings mode):
+properties in `NyxRings.qml`. The defaults match the original WaveRings mode:
 
 | property | default | meaning |
 |---|---|---|

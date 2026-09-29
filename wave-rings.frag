@@ -1,8 +1,8 @@
 #version 450
 
-// NyxRings — port of Noctalia's FancyAudioVisualizer "wave_rings" mode
-// (fancy_audio_visualizer_program.cpp, GPL-3.0). Fully transparent: the shader
-// writes premultiplied alpha and nothing where there is no ring/wave.
+// NyxRings — the "wave_rings" fragment shader (concentric rings + polar
+// spectrum). Fully transparent: it writes premultiplied alpha and nothing where
+// there is no ring or wave. Upstream notice: see LICENSE.
 
 layout(location = 0) in vec2 qt_TexCoord0;
 layout(location = 0) out vec4 fragColor;

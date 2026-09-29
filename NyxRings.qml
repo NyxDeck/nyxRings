@@ -4,8 +4,8 @@ import Quickshell.Io
 import qs.Modules.Plugins
 import qs.Common
 
-// NyxRings — a fully transparent desktop widget that renders Noctalia's
-// "wave_rings" audio visualizer (concentric rings + polar spectrum) from cava.
+// NyxRings — a fully transparent desktop widget that renders a "wave_rings"
+// audio visualizer (concentric rings + polar spectrum) driven by cava.
 DesktopPluginComponent {
     id: root
 
@@ -14,8 +14,7 @@ DesktopPluginComponent {
     minWidth: 120
     minHeight: 120
 
-    // Defaults copied verbatim from Noctalia's
-    // desktop_fancy_audio_visualizer_widget.h (mode = WaveRings).
+    // Defaults match the original visualizer's WaveRings mode.
     property real sensitivity: 1.5
     property real rotationSpeed: 0.5
     property real ringOpacity: 0.8
